@@ -70,7 +70,7 @@ else {
 let totalShoppingCart = 65
 console.log("\n***Excersice 6***\n")
 if (totalShoppingCart > 50){
-    console.log("The total bill is:", totalShoppingCart);
+    console.log("The total bill amount is:", totalShoppingCart);
 }
 else{
     console.log("The total bill amount is:", totalShoppingCart + 10);
@@ -81,7 +81,8 @@ else{
  Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log("\n***Excercise 7***\n")
+console.log("Final Bill:", totalShoppingCart- (totalShoppingCart*20)/100)
 
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
